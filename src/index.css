@@ -1,0 +1,58 @@
+@import url('https://fonts.googleapis.com/css2?family=Abhaya+Libre&display=swap');  
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root{
+  --dark: #00040F;
+  --light: #FFFBF0;
+  --gray: #75CDC8;
+  --yellow: #FBC34A;
+}
+
+*{
+  margin: 0;
+  padding: 0;
+  border: 0;
+  outline: 0;
+  box-sizing: border-box;
+  list-style: 0;
+  text-decoration: 0;
+  font-family: 'Courier New', Courier, monospace;
+  font-size: medium;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+html, body, #root{
+  width: 100%;
+  height: 100%;
+}
+
+.title-font{
+  font-family: 'Abhaya Libre', serif;
+  font-weight: lighter;
+  letter-spacing: -.8rem;
+  text-transform: none;
+}
+
+.detect{
+  background-color: blue;
+  /* border: 8px blue dashed;  */
+}
+
+.line-t{
+  border-top: .1rem var(--gray) solid;
+}
+
+.line-b{
+  border-bottom: .1rem var(--gray) solid;
+}
+
+.line-l{
+  border-left: .1rem var(--gray) solid;
+}
+
+.line-r{
+  border-right: .1rem var(--gray) solid;
+}
