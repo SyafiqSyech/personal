@@ -22,11 +22,14 @@
   font-size: medium;
   font-weight: 600;
   text-transform: uppercase;
+  color: var(--dark);
+  @apply text-xs sm:text-sm lg:text-base;
 }
 
 html, body, #root{
   width: 100%;
   height: 100%;
+  scroll-behavior: smooth;
 }
 
 .title-font{
@@ -38,21 +41,56 @@ html, body, #root{
 
 .detect{
   background-color: blue;
-  /* border: 8px blue dashed;  */
+  border: 2px red dashed; 
+}
+
+.line-all{
+  border: .1rem var(--dark) solid;
 }
 
 .line-t{
-  border-top: .1rem var(--gray) solid;
+  border-top: .1rem var(--dark) solid;
 }
 
 .line-b{
-  border-bottom: .1rem var(--gray) solid;
+  border-bottom: .1rem var(--dark) solid;
 }
 
 .line-l{
-  border-left: .1rem var(--gray) solid;
+  border-left: .1rem var(--dark) solid;
 }
 
 .line-r{
-  border-right: .1rem var(--gray) solid;
+  border-right: .1rem var(--dark) solid;
 }
+
+/* .button{
+  overflow: hidden;
+  position: relative;
+}
+
+.button:hover::before{
+  transform: scaleY(100%);
+}
+
+.button p, .button .arrowDown{
+  transition: .2s ease-in-out;
+}
+
+.button:hover p, .button:hover .arrowDown{
+  transition: .2s ease-in-out;
+  color: var(--light);
+}
+
+.button::before{
+  content: '';
+  background-color: var(--dark);
+  position: absolute;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  transform: scaleY(0%);
+  transform-origin: bottom;
+  transition: .2s ease-in-out;
+  z-index: 1;
+} */

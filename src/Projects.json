@@ -1,0 +1,83 @@
+[
+  {
+    "title": "Portfolio Website", 
+    "subtitle": "Personal", 
+    "image": "public/img/Portfolio.png", 
+    "role": "Full Stack / Designer", 
+    "tools": "ReactJs / Typescript / Tailwind / Framer Motion", 
+    "year": "2023", 
+    "link": "https://github.com/SyafiqSyech/personal",
+    "desc": "In this project, I used Vite for the development and Github for the deployment. I made the design minimalist combined with more complex animations to develop my Framer Motion skills, specifically with variants and spring animation. My ReactJs skills also increased, delving into props and components from which I'm eager to learn more about it."
+  },
+  {
+    "title": "Cognitive test", 
+    "subtitle": "Web Game", 
+    "image": "public/img/Cognitive.png", 
+    "role": "Full Stack / Designer / Game Designer", 
+    "tools": "Html / Css / Js", 
+    "year": "2023", 
+    "link": "https://sherbetlemon.netlify.app/",
+    "desc": "Here I coded three web-based games on cognitive skills from scratch. This project was a thrilling challenge for me where I have to use my logical thinking, JavaScript skills, and game designing skills to bring these game concepts to life. I made difficulty curves, scoring systems and visuals for each game. I also learned about local storage to store variables for highscore tracking."
+  },
+  {
+    "title": "The Herb Shop (ongoing)", 
+    "subtitle": "E-Commerce", 
+    "image": "public/img/HerbShop.png", 
+    "role": "Team Leader / Frontend / Backend", 
+    "tools": "Laravel / SQL / bootstrap / figma", 
+    "year": "2023", 
+    "link": "https://github.com/SyafiqSyech/FlowerShop",
+    "desc": "In this project, I lead a team where I hand out tasks to my team members and oversee their progress. I've completed the UI/UX design and now we've started on the frontend development. I'm also planning to help for backend members on their tasks along the way. Here we're developing a Laravel website where we use its built-in features like its MVC architecture."
+  },
+  {
+    "title": "Polyminal (ongoing)", 
+    "subtitle": "Infographic", 
+    "image": "public/img/Polyminal.png", 
+    "role": "Team Leader / Web Developer", 
+    "tools": "Reactjs / r3f (react Three Fiber) / tailwind", 
+    "year": "2023", 
+    "link": "https://github.com/SyafiqSyech/Polyminal",
+    "desc": "Polyminal is a university project in which I lead a team to make an infographic website about 3D shapes. In it we planned to put in descriptions and facts about the shapes. We use Vite Reactjs to build the website and plan to use R3F for the 3D elements. Here I've learned about dynamic components with props and array maps."
+  },
+  {
+    "title": "Cellular Automata", 
+    "subtitle": "Experiment", 
+    "image": "public/img/Cellular.png", 
+    "role": "Web Developer", 
+    "tools": "Html / Css / Js", 
+    "year": "2023", 
+    "link": "https://syafiqsyech.github.io/Cave-Gen/",
+    "desc": "In this website, I created a cell simulation inspired by Conway's Game of Life. I visualized the  iterations and result of the simulation using HTML's canvas element. With JavaScript, I programmed the cell behaviors to simulate a cave formation. I also made user inputs in HTML to control noise density, generate noise maps, and initiate the simulation."
+  },
+  {
+    "title": "Bils Links", 
+    "subtitle": "Link Tree", 
+    "image": "public/img/BilsLinks.png", 
+    "role": "Full Stack / Designer", 
+    "tools": "Html / Css / Js", 
+    "year": "2023", 
+    "link": "https://bilscoffeelinks.netlify.app/",
+    "desc": "Here I designed a personalized link tree clone website for a coffee shop. It Featured links for their menus, locations, and social medias. I also implemented appealing animations using JavaScript."
+  },
+  {
+    "title": "Chocs", 
+    "subtitle": "Uni Project", 
+    "image": "public/img/Chocs.png", 
+    "role": "full stack", 
+    "tools": "html / css / js", 
+    "year": "2022", 
+    "link": "https://github.com/OgifArtup/HCI-CHocs-FS",
+    "desc": "Chocs is one of my early projects I created with a good friend of mine. I explored more into web development and expanded my knowledge in responsive design using CSS Media Queries. Me and my friend also learned how to use GitHub for easier teamwork."
+  },
+  {
+    "title": "Yamada", 
+    "subtitle": "Uni Project", 
+    "image": "public/img/Yamada.png", 
+    "role": "full stack / designer", 
+    "tools": "html / css", 
+    "year": "2022", 
+    "link": "#",
+    "desc": "This project is one of my first website projects. Here I learned HTML and CSS, specifically classes to apply styles from the css and various types of html elements (turns out they're all just fancy divs). It was one of my early steps into the world of web development."
+  }
+]
+

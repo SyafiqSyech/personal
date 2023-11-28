@@ -1,0 +1,73 @@
+[
+  {
+    "title": "Work Fit AI", 
+    "subtitle": "UI/UX", 
+    "image": "public/img/WorkFit.png", 
+    "role": "Team Leader / UI/UX Designer", 
+    "tools": "Figma", 
+    "year": "2023", 
+    "link": "https://www.behance.net/gallery/171230883/WorkFitAI",
+    "desc": "In this team project I led, we conceptualized and designed a workout themed mobile app UI/UX integrated with AI technology. From making out the project's overview, problem statement, and defining objectives to creating user personas, user flows, wireframes, and executing a polished UI/UX design, we've put all the results in the behance page. We've also included the style guide, a mockup video, and a prototype link for the mobile app."
+  },
+  {
+    "title": "Scenery Renders", 
+    "subtitle": "Blender", 
+    "image": "public/img/MonsterCooker.png", 
+    "role": "3d artist", 
+    "tools": "Blender", 
+    "year": "2023", 
+    "link": "",
+    "desc": "For my university game design and programming project, I delved into Blender to create low poly style renders of dungeon and cave maps using various game assets. This journey significantly enhanced my Blender skills from modeling custom object, landscaping, and camera composition. Each map I experimented with something new like fog volumes and crystal materials in which it increased my Blender knowledge."
+  },
+  {
+    "title": "Weatherby (ongoing)", 
+    "subtitle": "UI/UX", 
+    "image": "public/img/Weatherby.png", 
+    "role": "UI/UX Designer", 
+    "tools": "Figma", 
+    "year": "2023", 
+    "link": "#",
+    "desc": "I designed a UI/UX for a weather mobile app featuring an integrated AI Chat Bot. I named the AI 'Weatherby' which i think is pretty clever if i do say so myself. The design displays detailed weather informations for various locations from which you can search for."
+  },
+  {
+    "title": "Mockup Animation", 
+    "subtitle": "Figma", 
+    "image": "public/img/Figma3D.png", 
+    "role": "Creator", 
+    "tools": "Figma", 
+    "year": "2023", 
+    "link": "",
+    "desc": "In a school project, I used Figma's tools to make a 3D-like effect for a mockup mobile app animation. With Figma's smart animate feature and a plugin i used, I'm able to create an illusion of the thrid dimension. This animation design creates a more immersive experience rather than a simple 2D animation by mimicking a 3D mobile device. With my Figma capabilities, I am able to increase the appeal to the app's visual presentation."
+  },
+  {
+    "title": "Shader Renders", 
+    "subtitle": "Blender", 
+    "image": "public/img/Shaders.png", 
+    "role": "3d artist", 
+    "tools": "Blender", 
+    "year": "2023", 
+    "link": "",
+    "desc": "I was inspired by Spider-Verse and similar animations, and so I experimented on Blender's shader features. Through these renders, I learned about creating shaders using nodes to achieve a certain stylized npr (non-photorealistic) look. I made and experimented custom shaders including toonish, sketch-like, comic style and more."
+  },
+  {
+    "title": "TrainGo", 
+    "subtitle": "UI/UX", 
+    "image": "public/img/TrainGo.png", 
+    "role": "UI/UX Designer", 
+    "tools": "Figma", 
+    "year": "2023", 
+    "link": "https://www.behance.net/gallery/174350381/TrainGo",
+    "desc": "Traingo is a UI/UX project I created for a school assignment. I crafted a mobile app for checking train statuses and schedules. This involved designing a user-friendly search bar for trains and stations and a route page to display best trains for a specified route. I also made fictional map to conceptualize it."
+  },
+  {
+    "title": "Jobby", 
+    "subtitle": "UI/UX", 
+    "image": "public/img/Jobby.png", 
+    "role": "UI/UX Designer", 
+    "tools": "Figma", 
+    "year": "2022", 
+    "link": "#",
+    "desc": "Jobby was a team project in which we designed a Fiverr-inspired website. This is one of my first experiences in using figma where I learned a lot about its features such as Figma components and prototyping. This experience helped me develop my Figma skills."
+  }
+]
+

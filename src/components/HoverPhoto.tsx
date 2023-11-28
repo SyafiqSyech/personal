@@ -1,22 +1,21 @@
 import { useMotionValue, useSpring, useTransform, motion } from 'framer-motion'
-import Photo from '../assets/img/pic.png'
 
-const HoverPhoto = ({ w, h, image }) => {
+const HoverPhoto = ({ w, h, image, text}) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
-  const mouseXSpring = useSpring(x, {stiffness:100 , damping: 4});
-  const mouseYSpring = useSpring(y, {stiffness:100 , damping: 4});
+  const mouseXSpring = useSpring(x, {stiffness:100 , damping: 8});
+  const mouseYSpring = useSpring(y, {stiffness:100 , damping: 8});
 
   const rotateX = useTransform(
     mouseYSpring,
     [-0.5, 0.5],
-    ["20deg", "-20deg"]
+    ["30deg", "-30deg"]
   );
   const rotateY = useTransform(
     mouseXSpring,
     [-0.5, 0.5],
-    ["-20deg", "20deg"]
+    ["-30deg", "30deg"]
   );
   
   const handleMouseMove = (e) => {
@@ -35,7 +34,7 @@ const HoverPhoto = ({ w, h, image }) => {
     y.set(yPct);
 
     const shad = document.querySelectorAll(".shad")
-    shad.forEach((n) => {n.classList.add("shadow-2xl")})
+    shad.forEach((n) => {n.classList.add("shadow-xl")})
   };
   
   const handleMouseLeave = () => {
@@ -43,52 +42,142 @@ const HoverPhoto = ({ w, h, image }) => {
     y.set(0);
 
     const shad = document.querySelectorAll(".shad")
-    shad.forEach((n) => {n.classList.remove("shadow-2xl")})
+    shad.forEach((n) => {n.classList.remove("shadow-xl")})
   };
 
+  const textState = {
+    rest: {
+      opacity: 1,
+      transition: {
+        duration: .2
+      }
+    },
+    hover: {
+      opacity: 0,
+      transition: {
+        duration: .2
+      }
+    },
+  }
+
+  const boxOuterState = {
+    rest: {
+      width: "100%",
+      height: "100%",
+      transition: {
+        duration: .2
+      }
+    },
+    hover: {
+      width: "80%",
+      height: "80%",
+      transition: {
+        duration: .2
+      }
+    },
+  }
+
+  const boxState = {
+    rest: {
+      borderRadius: 0,
+      transition: {
+        duration: .2
+      }
+    },
+    hover: {
+      borderRadius: "8rem",
+      transition: {
+        duration: .2
+      }
+    },
+  }
+
+  const boxTop = [-2, -1, 1, 2]
 
   return (
     <motion.div
       onMouseMove={handleMouseMove}
       onMouseLeave={handleMouseLeave}
+      initial="rest"
+      whileHover="hover"
+      animate="rest"
       style={{
-        rotateY,
-        rotateX,
-        transformStyle: "preserve-3d",
-        height: h+"rem",
-        width: w+"rem",
+        height: h == "full" ? "100%" : h+"rem",
+        width: w == "full" ? "100%" : w+"rem",
       }}
-      className="relative"
+      className="relative overflow-hidden flex justify-center items-center bg-dark"
     >
-      <img className='h-full w-full object-cover object-center rounded-[8rem] after:content-none after:absolute after:bg-blue-500 after:top-0' src={Photo} alt="photo"/>
-      <div
+      <motion.div
         style={{
-          transform: "translateZ(-80px)",
+          rotateY,
+          rotateX,
           transformStyle: "preserve-3d",
         }}
-        className="absolute inset-1 rounded-[8rem] border-[100px] border-yellow border-solid shadow-2xl"
-      ></div>
-      <p
-        style={{
-          transform: "translateZ(40px)",
-          transformStyle: "preserve-3d",
-        }}
-        className="absolute bottom-8 w-full text-center text-light h-0"
-      >Hover</p>
-      {/* <div
-        style={{
-          transform: "translateZ(160px)",
-          transformStyle: "preserve-3d",
-        }}
-        className="shad absolute inset-2 rounded-[8rem] border-8 border-dark border-solid"
-      ></div>
-      <div
-        style={{
-          transform: "translateZ(240px)",
-          transformStyle: "preserve-3d",
-        }}
-        className="shad absolute inset-2 rounded-[8rem] border-8 border-dark border-solid"
-      ></div> */}
+        variants={boxOuterState}
+        className='h-full w-full relative'
+      >
+
+        <motion.img
+          style={{
+            transform: "translateZ(0px)",
+            transformStyle: "preserve-3d",
+          }}
+          variants={boxState} 
+          className='shad h-full w-full object-cover object-center overflow-auto' 
+          src={image} 
+          alt="photo"
+        />
+        {/* <motion.div
+          style={{
+            transform: "translateZ(-80px)",
+            transformStyle: "preserve-3d",
+          }}
+          variants={boxState}
+          className="absolute m-auto left-0 right-0 top-0 bottom-0 bg-yellow shadow-2xl"
+        ></motion.div> */}
+        <motion.p
+          style={{
+            transform: "translateZ(40px)",
+            transformStyle: "preserve-3d",
+          }}
+          variants={textState}
+          className="absolute bottom-8 w-full text-center text-light h-0"
+        >{text}</motion.p>
+        {boxTop.map((b) => (
+          <motion.div
+          style={{
+            transform: "translateZ("+(b*100)+"px)",
+            transformStyle: "preserve-3d",
+          }}
+          variants={boxState}
+          className="shad absolute m-auto left-0 right-0 top-0 bottom-0 border-4 border-light border-solid"
+        ></motion.div>
+        ))}
+        {/* <motion.div
+          style={{
+            transform: "translateZ(100px)",
+            transformStyle: "preserve-3d",
+          }}
+          variants={boxTopState}
+          className="shad absolute m-auto left-0 right-0 top-0 bottom-0 border-4 border-light border-solid"
+        ></motion.div>
+        <motion.div
+          style={{
+            transform: "translateZ(140px)",
+            transformStyle: "preserve-3d",
+          }}
+          variants={boxTopState}
+          className="shad absolute m-auto left-0 right-0 top-0 bottom-0 border-4 border-light border-solid"
+        ></motion.div>
+        <motion.div
+          style={{
+            transform: "translateZ(180px)",
+            transformStyle: "preserve-3d",
+          }}
+          variants={boxTopState}
+          className="shad absolute m-auto left-0 right-0 top-0 bottom-0 border-4 border-light border-solid"
+        ></motion.div> */}
+      </motion.div>
     </motion.div>
   )
 }
