@@ -60,6 +60,16 @@
     "desc": "Here I designed a personalized link tree clone website for a coffee shop. It Featured links for their menus, locations, and social medias. I also implemented appealing animations using JavaScript."
   },
   {
+    "title": "Jambo", 
+    "subtitle": "Uni Project", 
+    "image": "public/img/Jambo.png", 
+    "role": "Backend / Database", 
+    "tools": "ReactJs / SQL / NodeJs / ExpressJs", 
+    "year": "2023", 
+    "link": "https://github.com/Blahaj-Lover/jambo-be",
+    "desc": "In this team project, I took charge of the backend responsibilities and helped work on the database. Specifically, My task was implementing the login and registration features for the website. For this I connected the database with the backend using expressjs and connected the backend to the frontend using get and post requests in Nodejs."
+  },
+  {
     "title": "Chocs", 
     "subtitle": "Uni Project", 
     "image": "public/img/Chocs.png", 
