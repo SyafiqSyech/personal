@@ -2,7 +2,7 @@
   {
     "title": "Work Fit AI", 
     "subtitle": "UI/UX", 
-    "image": "/img/WorkFit.png", 
+    "image": "public/img/WorkFit.png", 
     "role": "Team Leader / UI/UX Designer", 
     "tools": "Figma", 
     "year": "2023", 
@@ -12,7 +12,7 @@
   {
     "title": "Scenery Renders", 
     "subtitle": "Blender", 
-    "image": "/img/MonsterCooker.png", 
+    "image": "public/img/MonsterCooker.png", 
     "role": "3d artist", 
     "tools": "Blender", 
     "year": "2023", 
@@ -22,7 +22,7 @@
   {
     "title": "Weatherby (ongoing)", 
     "subtitle": "UI/UX", 
-    "image": "/img/Weatherby.png", 
+    "image": "public/img/Weatherby.png", 
     "role": "UI/UX Designer", 
     "tools": "Figma", 
     "year": "2023", 
@@ -32,7 +32,7 @@
   {
     "title": "Mockup Animation", 
     "subtitle": "Figma", 
-    "image": "/img/Figma3D.png", 
+    "image": "public/img/Figma3D.png", 
     "role": "Creator", 
     "tools": "Figma", 
     "year": "2023", 
@@ -42,7 +42,7 @@
   {
     "title": "Shader Renders", 
     "subtitle": "Blender", 
-    "image": "/img/Shaders.png", 
+    "image": "public/img/Shaders.png", 
     "role": "3d artist", 
     "tools": "Blender", 
     "year": "2023", 
@@ -52,7 +52,7 @@
   {
     "title": "TrainGo", 
     "subtitle": "UI/UX", 
-    "image": "/img/TrainGo.png", 
+    "image": "public/img/TrainGo.png", 
     "role": "UI/UX Designer", 
     "tools": "Figma", 
     "year": "2023", 
@@ -62,7 +62,7 @@
   {
     "title": "Jobby", 
     "subtitle": "UI/UX", 
-    "image": "/img/Jobby.png", 
+    "image": "public/img/Jobby.png", 
     "role": "UI/UX Designer", 
     "tools": "Figma", 
     "year": "2022", 

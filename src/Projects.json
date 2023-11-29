@@ -2,7 +2,7 @@
   {
     "title": "Portfolio Website", 
     "subtitle": "Personal", 
-    "image": "/img/Portfolio.png", 
+    "image": "public/img/Portfolio.png", 
     "role": "Full Stack / Designer", 
     "tools": "ReactJs / Typescript / Tailwind / Framer Motion", 
     "year": "2023", 
@@ -12,7 +12,7 @@
   {
     "title": "Cognitive test", 
     "subtitle": "Web Game", 
-    "image": "/img/Cognitive.png", 
+    "image": "public/img/Cognitive.png", 
     "role": "Full Stack / Designer / Game Designer", 
     "tools": "Html / Css / Js", 
     "year": "2023", 
@@ -22,7 +22,7 @@
   {
     "title": "The Herb Shop (ongoing)", 
     "subtitle": "E-Commerce", 
-    "image": "/img/HerbShop.png", 
+    "image": "public/img/HerbShop.png", 
     "role": "Team Leader / Frontend / Backend", 
     "tools": "Laravel / SQL / bootstrap / figma", 
     "year": "2023", 
@@ -32,7 +32,7 @@
   {
     "title": "Polyminal (ongoing)", 
     "subtitle": "Infographic", 
-    "image": "/img/Polyminal.png", 
+    "image": "public/img/Polyminal.png", 
     "role": "Team Leader / Web Developer", 
     "tools": "Reactjs / r3f (react Three Fiber) / tailwind", 
     "year": "2023", 
@@ -42,7 +42,7 @@
   {
     "title": "Cellular Automata", 
     "subtitle": "Experiment", 
-    "image": "/img/Cellular.png", 
+    "image": "public/img/Cellular.png", 
     "role": "Web Developer", 
     "tools": "Html / Css / Js", 
     "year": "2023", 
@@ -52,7 +52,7 @@
   {
     "title": "Bils Links", 
     "subtitle": "Link Tree", 
-    "image": "/img/BilsLinks.png", 
+    "image": "public/img/BilsLinks.png", 
     "role": "Full Stack / Designer", 
     "tools": "Html / Css / Js", 
     "year": "2023", 
@@ -62,7 +62,7 @@
   {
     "title": "Jambo", 
     "subtitle": "Uni Project", 
-    "image": "/img/Jambo.png", 
+    "image": "public/img/Jambo.png", 
     "role": "Backend / Database", 
     "tools": "ReactJs / SQL / NodeJs / ExpressJs", 
     "year": "2023", 
@@ -72,7 +72,7 @@
   {
     "title": "Chocs", 
     "subtitle": "Uni Project", 
-    "image": "/img/Chocs.png", 
+    "image": "public/img/Chocs.png", 
     "role": "full stack", 
     "tools": "html / css / js", 
     "year": "2022", 
@@ -82,7 +82,7 @@
   {
     "title": "Yamada", 
     "subtitle": "Uni Project", 
-    "image": "/img/Yamada.png", 
+    "image": "public/img/Yamada.png", 
     "role": "full stack / designer", 
     "tools": "html / css", 
     "year": "2022", 

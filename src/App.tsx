@@ -1,6 +1,5 @@
 // import { OrbitControls } from "@react-three/drei";
 // import { Canvas } from "@react-three/fiber";
-import Filler from './sections/Filler'
 import Home from './sections/Home'
 import Projects from './sections/Projects'
 import Socials from './sections/Socials'
