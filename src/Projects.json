@@ -7,7 +7,7 @@
     "tools": "ReactJs / Typescript / Tailwind / Framer Motion", 
     "year": "2023", 
     "link": "https://github.com/SyafiqSyech/personal",
-    "desc": "In this project, I used Vite for the development and Github for the deployment. I made the design minimalist combined with more complex animations to develop my Framer Motion skills, specifically with variants and spring animation. My ReactJs skills also increased, delving into props and components from which I'm eager to learn more about it."
+    "desc": "In this project, I used Vite for the development and Netlify for the deployment. I made the design minimalist combined with more complex animations to develop my Framer Motion skills, specifically with variants and spring animation. My ReactJs skills also increased, delving into props and components from which I'm eager to learn more about it."
   },
   {
     "title": "Cognitive test", 
