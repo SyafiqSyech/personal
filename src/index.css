@@ -20,7 +20,7 @@
   text-decoration: 0;
   font-family: 'Courier New', Courier, monospace;
   font-size: medium;
-  font-weight: 600;
+  font-weight: bold;
   text-transform: uppercase;
   color: var(--dark);
   @apply text-xs sm:text-sm lg:text-base;
