@@ -25,7 +25,7 @@ const Home = () => {
           className='h-[40%] lg:h-full w-full lg:w-[40%] overflow-hidden bg-light
           border-t-[.1rem] border-l-0 lg:border-t-0 lg:border-l-[.1rem] border-solid border-dark'
         >
-          <HoverPhoto h="full" w="full" image="public\img\pic.png" text="hover"/>
+          <HoverPhoto h="full" w="full" image="/img/pic.png" text="hover"/>
         </div>
         {/* <div className="w-12 flex items-center relative">
           <p className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-max rotate-90">portfolio website</p>
