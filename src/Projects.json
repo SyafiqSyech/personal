@@ -57,7 +57,7 @@
     "tools": "Html / Css / Js", 
     "year": "2023", 
     "link": "https://bilscoffeelinks.netlify.app/",
-    "desc": "Here I designed a personalized link tree clone website for a coffee shop. It Featured links for their menus, locations, and social medias. I also implemented appealing animations using JavaScript."
+    "desc": "Here I designed a personalized link tree clone website for a coffee shop. It Featured links for their menus, locations, and social medias. I implemented simple appealing scroll animations using JavaScript. I also deployed this website using Netlify."
   },
   {
     "title": "Jambo", 
