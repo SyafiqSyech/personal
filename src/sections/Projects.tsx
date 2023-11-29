@@ -1,4 +1,3 @@
-// import { motion } from 'framer-motion'
 import HoverProjectButton from "../components/HoverProjectButton"
 import projectsjson from "../Projects.json"
 import dabblesjson from "../Dabbles.json"
@@ -23,8 +22,8 @@ const Projects = () => {
                   desc={n.desc}
                   year={n.year}
                   link={n.link}
-                />
-              ))
+                  />
+                  ))
             }
           <p className="title-font text-8xl lg:text-[10rem] pt-40 p-8">My Dabbles</p>
             {dabblesjson.map((n) => (
@@ -36,6 +35,7 @@ const Projects = () => {
                   tools={n.tools}
                   desc={n.desc}
                   year={n.year}
+                  link={n.link}
                 />
               ))
             }

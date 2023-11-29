@@ -2,7 +2,7 @@
   {
     "title": "Work Fit AI", 
     "subtitle": "UI/UX", 
-    "image": "public/img/WorkFit.png", 
+    "image": "/img/WorkFit.png", 
     "role": "Team Leader / UI/UX Designer", 
     "tools": "Figma", 
     "year": "2023", 
@@ -12,17 +12,17 @@
   {
     "title": "Scenery Renders", 
     "subtitle": "Blender", 
-    "image": "public/img/MonsterCooker.png", 
+    "image": "/img/MonsterCooker.png", 
     "role": "3d artist", 
     "tools": "Blender", 
     "year": "2023", 
-    "link": "",
+    "link": "#",
     "desc": "For my university game design and programming project, I delved into Blender to create low poly style renders of dungeon and cave maps using various game assets. This journey significantly enhanced my Blender skills from modeling custom object, landscaping, and camera composition. Each map I experimented with something new like fog volumes and crystal materials in which it increased my Blender knowledge."
   },
   {
     "title": "Weatherby (ongoing)", 
     "subtitle": "UI/UX", 
-    "image": "public/img/Weatherby.png", 
+    "image": "/img/Weatherby.png", 
     "role": "UI/UX Designer", 
     "tools": "Figma", 
     "year": "2023", 
@@ -32,27 +32,27 @@
   {
     "title": "Mockup Animation", 
     "subtitle": "Figma", 
-    "image": "public/img/Figma3D.png", 
+    "image": "/img/Figma3D.png", 
     "role": "Creator", 
     "tools": "Figma", 
     "year": "2023", 
-    "link": "",
+    "link": "#",
     "desc": "In a school project, I used Figma's tools to make a 3D-like effect for a mockup mobile app animation. With Figma's smart animate feature and a plugin i used, I'm able to create an illusion of the thrid dimension. This animation design creates a more immersive experience rather than a simple 2D animation by mimicking a 3D mobile device. With my Figma capabilities, I am able to increase the appeal to the app's visual presentation."
   },
   {
     "title": "Shader Renders", 
     "subtitle": "Blender", 
-    "image": "public/img/Shaders.png", 
+    "image": "/img/Shaders.png", 
     "role": "3d artist", 
     "tools": "Blender", 
     "year": "2023", 
-    "link": "",
+    "link": "#",
     "desc": "I was inspired by Spider-Verse and similar animations, and so I experimented on Blender's shader features. Through these renders, I learned about creating shaders using nodes to achieve a certain stylized npr (non-photorealistic) look. I made and experimented custom shaders including toonish, sketch-like, comic style and more."
   },
   {
     "title": "TrainGo", 
     "subtitle": "UI/UX", 
-    "image": "public/img/TrainGo.png", 
+    "image": "/img/TrainGo.png", 
     "role": "UI/UX Designer", 
     "tools": "Figma", 
     "year": "2023", 
@@ -62,7 +62,7 @@
   {
     "title": "Jobby", 
     "subtitle": "UI/UX", 
-    "image": "public/img/Jobby.png", 
+    "image": "/img/Jobby.png", 
     "role": "UI/UX Designer", 
     "tools": "Figma", 
     "year": "2022", 

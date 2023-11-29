@@ -1,7 +1,6 @@
-import { animate, motion } from 'framer-motion'
-import { ArrowDown } from 'lucide-react'
+import { motion } from 'framer-motion'
 
-const HoverButton = ({text, link}) => {
+const HoverButton = (props: {text: any, link: any, linknewpage: any}) => {
   // const onButtonHover = () => {
   //   animate([['.buttonBackground', {scaleY: 1}, {duration: .2}]])
   //   animate([['.buttonText', {y: ['0%', '-100%', '0%'], color: ["#00040F", "#00040F", "#FFFBF0", "#FFFBF0"]}, {duration: .2, delay: .2}]])
@@ -59,13 +58,8 @@ const HoverButton = ({text, link}) => {
         type: "spring",
         stiffness: 300,
         damping: 15,
-        // when: "afterChildren"
       }
     }
-  }
-
-  const goToLink = () => {
-    window.location.href = link
   }
   
   return (
@@ -86,10 +80,10 @@ const HoverButton = ({text, link}) => {
       whileHover="hover"
       animate="rest"
       className="h-full w-min line-r flex items-center cursor-pointer relative"
-      onClick={goToLink}
+      onClick={() => {props.linknewpage ? window.open(props.link) : window.location.href = props.link}}
     >
       <motion.div variants={boxState} className="pr-8 flex proj overflow-hidden text-dark relative">
-        <motion.p variants={textState} className="z-10 pr-3">{text}</motion.p>
+        <motion.p variants={textState} className="z-10 pr-3">{props.text}</motion.p>
         <motion.p variants={textState} className="z-10">+</motion.p>
       </motion.div>
       <motion.div variants={bgState} className="z-0 h-full w-full bg-dark absolute top-0 left-0"></motion.div>

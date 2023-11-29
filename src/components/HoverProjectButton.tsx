@@ -1,7 +1,9 @@
 import { motion } from 'framer-motion'
 import HoverPhoto from './HoverPhoto'
 
-const HoverButton = ({title, subtitle, img, role, tools ,desc, year, link}) => {
+// title: any, subtitle: any, img: any, role: any, tools: any, desc: any, year: any, link: any
+
+const HoverButton = (props: {title: any, subtitle: any, img: any, role: any, tools: any, desc: any, year: any, link: any}) => {
 
   const popState = {
     rest: {
@@ -31,15 +33,15 @@ const HoverButton = ({title, subtitle, img, role, tools ,desc, year, link}) => {
         damping: 25,
       }
     },
-    click: {
-      color: "#FFFBF0",
-      x: "3rem",
-      transition: {
-        type: "spring",
-        stiffness: 800,
-        damping: 25,
-      }
-    }
+    // click: {
+    //   color: "#FFFBF0",
+    //   x: "3rem",
+    //   transition: {
+    //     type: "spring",
+    //     stiffness: 800,
+    //     damping: 25,
+    //   }
+    // }
   }
   
   const textrightState = {
@@ -63,21 +65,16 @@ const HoverButton = ({title, subtitle, img, role, tools ,desc, year, link}) => {
         damping: 25,
       }
     },
-    click: {
-      color: "#FFFBF0",
-      opacity: 1,
-      x: 0,
-      transition: {
-        type: "spring",
-        stiffness: 800,
-        damping: 25,
-      }
-    }
-  }
-
-
-  const goToLink = () => {
-    window.location.href = link
+    // click: {
+    //   color: "#FFFBF0",
+    //   opacity: 1,
+    //   x: 0,
+    //   transition: {
+    //     type: "spring",
+    //     stiffness: 800,
+    //     damping: 25,
+    //   }
+    // }
   }
 
   return (
@@ -85,7 +82,7 @@ const HoverButton = ({title, subtitle, img, role, tools ,desc, year, link}) => {
       initial="rest"
       whileHover="hover"
       animate="rest"
-      onClick={goToLink}
+      onClick={() => {(props.link != "#" && props.link != "") ? window.open(props.link) : window.location.href = props.link}}
     >
       <motion.div 
         variants={popState}
@@ -97,34 +94,34 @@ const HoverButton = ({title, subtitle, img, role, tools ,desc, year, link}) => {
         variants={popState}
         className="h-[calc(100dvh-6rem)] w-[calc(50dvw-6rem)] mx-12 grid grid-rows-[4fr_6fr] line-all fixed top-1/2 -translate-y-1/2 z-20 left-0"
       >  */}
-        <HoverPhoto h="full" w="full" image={img} text=""/>
+        <HoverPhoto h="full" w="full" image={props.img} text=""/>
         <div className="line-t bg-light flex flex-col p-2 lg:p-4 gap-2 lg:gap-4">
-          <p className="text-center">{title}</p>
+          <p className="text-center">{props.title}</p>
           <div className="line-all grid grid-cols-2">
             <p className="p-2 lg:p-4">
               Role:<br/>
-              {role}
+              {props.role}
             </p>
             <p className="p-2 lg:p-4 line-l">
               Tools:<br/>
-              {tools}
+              {props.tools}
             </p>
           </div>
           <div className="h-full flex flex-col justify-between">
             <p>
-              {desc}
+              {props.desc}
             </p>
             <div className="flex justify-between">
-              <p>{subtitle}</p>
-              <p>{year}</p>
+              <p>{props.subtitle}</p>
+              <p>{props.year}</p>
             </div>
           </div>
         </div>
       </motion.div>
       <div className="h-full w-full p-10 flex items-center absolute top-0 left-0 overflow-hidden">
         <motion.p variants={textState} className="z-10 w-max absolute right-[calc(100%+1rem)]">-----------+</motion.p>
-        <motion.p variants={textState} className="z-10">{title}</motion.p>
-        <motion.p variants={textrightState} className="z-10 w-max absolute right-8">{subtitle}</motion.p>
+        <motion.p variants={textState} className="z-10">{props.title}</motion.p>
+        <motion.p variants={textrightState} className="z-10 w-max absolute right-8">{props.subtitle}</motion.p>
       </div>
       {/* <motion.div variants={bgState} className="z-0 h-full w-full bg-dark absolute top-0 left-0"></motion.div> */}
     </motion.div>

@@ -1,4 +1,3 @@
-import PageNum from '../components/PageNum'
 import HoverPhoto from '../components/HoverPhoto'
 import HoverButton from '../components/HoverButton'
 
@@ -18,8 +17,8 @@ const Home = () => {
             <p>Web Developer (but i dabble)</p>
           </div>
           <div className="flex">
-            <HoverButton text="Projects" link="#projects"/>
-            <HoverButton text="Socials" link="#socials"/>
+            <HoverButton text="Projects" link="#projects" linknewpage={false}/>
+            <HoverButton text="Socials" link="#socials" linknewpage={false}/>
           </div>
         </div>
         <div 

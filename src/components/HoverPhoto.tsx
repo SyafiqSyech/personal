@@ -1,6 +1,8 @@
 import { useMotionValue, useSpring, useTransform, motion } from 'framer-motion'
 
-const HoverPhoto = ({ w, h, image, text}) => {
+// w: any, h: any, image: any, text: any
+
+const HoverPhoto = (props: {w: any, h: any, image: any, text: any}) => {
   const x = useMotionValue(0);
   const y = useMotionValue(0);
 
@@ -18,7 +20,7 @@ const HoverPhoto = ({ w, h, image, text}) => {
     ["-30deg", "30deg"]
   );
   
-  const handleMouseMove = (e) => {
+  const handleMouseMove = (e: any) => {
     const rect = e.target.getBoundingClientRect();
     
     const width = rect.width;
@@ -102,8 +104,8 @@ const HoverPhoto = ({ w, h, image, text}) => {
       whileHover="hover"
       animate="rest"
       style={{
-        height: h == "full" ? "100%" : h+"rem",
-        width: w == "full" ? "100%" : w+"rem",
+        height: props.h == "full" ? "100%" : props.h+"rem",
+        width: props.w == "full" ? "100%" : props.w+"rem",
       }}
       className="relative overflow-hidden flex justify-center items-center bg-dark"
     >
@@ -124,7 +126,7 @@ const HoverPhoto = ({ w, h, image, text}) => {
           }}
           variants={boxState} 
           className='shad h-full w-full object-cover object-center overflow-auto' 
-          src={image} 
+          src={props.image} 
           alt="photo"
         />
         {/* <motion.div
@@ -142,7 +144,7 @@ const HoverPhoto = ({ w, h, image, text}) => {
           }}
           variants={textState}
           className="absolute bottom-8 w-full text-center text-light h-0"
-        >{text}</motion.p>
+        >{props.text}</motion.p>
         {boxTop.map((b) => (
           <motion.div
           style={{
