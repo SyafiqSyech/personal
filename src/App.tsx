@@ -2,6 +2,7 @@
 // import { Canvas } from "@react-three/fiber";
 import Home from './sections/Home'
 import Projects from './sections/Projects'
+import Skills from './sections/Skills'
 import Socials from './sections/Socials'
 
 // function Scene() {
@@ -24,6 +25,7 @@ function App() {
     <>
       <Home/>
       <Projects/>
+      <Skills/>
       <Socials/>
     </>
   )

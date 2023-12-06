@@ -147,6 +147,7 @@ const HoverPhoto = (props: {w: any, h: any, image: any, text: any}) => {
         >{props.text}</motion.p>
         {boxTop.map((b) => (
           <motion.div
+          key={b}
           style={{
             transform: "translateZ("+(b*100)+"px)",
             transformStyle: "preserve-3d",

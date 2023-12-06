@@ -7,7 +7,7 @@
     "tools": "ReactJs / Typescript / Tailwind / Framer Motion", 
     "year": "2023", 
     "link": "https://github.com/SyafiqSyech/personal",
-    "desc": "In this project, I used Vite for the development and Netlify for the deployment. I made the design minimalist combined with more complex animations to develop my Framer Motion skills, specifically with variants and spring animation. My ReactJs skills also increased, delving into props and components from which I'm eager to learn more about it."
+    "desc": "In this project, I used Vite for the development and Github for the deployment. I made the design minimalist combined with more Intricate animations to develop my Framer Motion skills, specifically with variants and spring animation. My ReactJs skills also increased, delving into props and components from which I'm eager to learn more about it."
   },
   {
     "title": "Cognitive test", 
@@ -17,7 +17,7 @@
     "tools": "Html / Css / Js", 
     "year": "2023", 
     "link": "https://sherbetlemon.netlify.app/",
-    "desc": "Here I coded three web-based games on cognitive skills from scratch. This project was a thrilling challenge for me where I have to use my logical thinking, JavaScript skills, and game designing skills to bring these game concepts to life. I made difficulty curves, scoring systems and visuals for each game. I also learned about local storage to store variables for highscore tracking."
+    "desc": "Here I coded three simple web-based games on cognitive skills. This project was a thrilling challenge for me where I have to use my logical thinking and game designing skills to bring these game concepts to life. I made difficulty curves and the visuals for each game and I utilized AI to create some of the algorithms I put in. I also learned about local storage to store variables for highscore tracking."
   },
   {
     "title": "The Herb Shop (ongoing)", 
@@ -27,7 +27,7 @@
     "tools": "Laravel / SQL / bootstrap / figma", 
     "year": "2023", 
     "link": "https://github.com/SyafiqSyech/FlowerShop",
-    "desc": "In this project, I lead a team where I hand out tasks to my team members and oversee their progress. I've completed the UI/UX design and now we've started on the frontend development. I'm also planning to help for backend members on their tasks along the way. Here we're developing a Laravel website where we use its built-in features like its MVC architecture."
+    "desc": "In this project, I led a team of 6 where I hand out tasks to my team members and oversee their progress. I've completed the UI/UX design and now we've started on the development. I'm working on the frontend but I'm also planning to help our backend members on their tasks along the way. Here we're developing a Laravel website where we use its built-in features such as the MVC (Model View Controller) architecture."
   },
   {
     "title": "Polyminal (ongoing)", 
@@ -37,7 +37,7 @@
     "tools": "Reactjs / r3f (react Three Fiber) / tailwind", 
     "year": "2023", 
     "link": "https://github.com/SyafiqSyech/Polyminal",
-    "desc": "Polyminal is a university project in which I lead a team to make an infographic website about 3D shapes. In it we planned to put in descriptions and facts about the shapes. We use Vite Reactjs to build the website and plan to use R3F for the 3D elements. Here I've learned about dynamic components with props and array maps."
+    "desc": "Polyminal is a university project in which I lead a team of 5 to create an infographic website about 3D shapes. Our plan is to include descriptions and facts about these shapes. We're using Vite ReactJS to develop the website and intend to use R3F for the 3D elements. So far, I've learned about dynamic components using props and array maps."
   },
   {
     "title": "Cellular Automata", 
@@ -57,7 +57,7 @@
     "tools": "Html / Css / Js", 
     "year": "2023", 
     "link": "https://bilscoffeelinks.netlify.app/",
-    "desc": "Here I designed a personalized link tree clone website for a coffee shop. It Featured links for their menus, locations, and social medias. I implemented simple appealing scroll animations using JavaScript. I also deployed this website using Netlify."
+    "desc": "Here I designed a personalized link tree clone website for a coffee shop. It Featured links for their menus, locations, and social medias. I implemented simple scroll animations using JavaScript and now I realize that using pure JavaScript for animations is not that good. I also deployed this website using Netlify."
   },
   {
     "title": "Jambo", 
@@ -67,7 +67,7 @@
     "tools": "ReactJs / SQL / NodeJs / ExpressJs", 
     "year": "2023", 
     "link": "https://github.com/Blahaj-Lover/jambo-be",
-    "desc": "In this team project, I took charge of the backend responsibilities and helped work on the database. Specifically, My task was implementing the login and registration features for the website. For this I connected the database with the backend using expressjs and connected the backend to the frontend using get and post requests in Nodejs."
+    "desc": "In this team project, I took charge of the backend tasks and helped work on the database. I focused on implementing login and registration features for the website.  I didn't really do a good job here because I didn't fully display all the information from the database on the website. But I did connect the database with the backend using expressjs and connect the backend to the frontend using get and post requests in Nodejs."
   },
   {
     "title": "Chocs", 
@@ -77,7 +77,7 @@
     "tools": "html / css / js", 
     "year": "2022", 
     "link": "https://github.com/OgifArtup/HCI-CHocs-FS",
-    "desc": "Chocs is one of my early projects I created with a good friend of mine. I explored more into web development and expanded my knowledge in responsive design using CSS Media Queries. Me and my friend also learned how to use GitHub for easier teamwork."
+    "desc": "Chocs is one of my early projects I created with a good friend of mine. I explored more into web development and expanded my knowledge in responsive design using CSS Media Queries. Me and my friend also learned how to use GitHub for easier teamwork. The code and design wasn't good but it helped me learn more and get to where I am today."
   },
   {
     "title": "Yamada", 
@@ -87,7 +87,7 @@
     "tools": "html / css", 
     "year": "2022", 
     "link": "#",
-    "desc": "This project is one of my first website projects. Here I learned HTML and CSS, specifically classes to apply styles from the css and various types of html elements (turns out they're all just fancy divs). It was one of my early steps into the world of web development."
+    "desc": "This project is one of my first website projects. Here I learned HTML and CSS, specifically classes to apply styles from the css and various types of html elements (turns out they're all just fancy divs). The final product was not that good but it was one of my early steps into the world of web development."
   }
 ]
 

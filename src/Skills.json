@@ -1,0 +1,34 @@
+[
+  {
+    "name":"AI", 
+    "desc":"I can utilize AI to help my job effectively on my programming, designing, and other tasks. For example, I used it to help me discover other synonyms elongate sentences or paragraphs, and overall increase the quality of my English and in the informations here on this website."
+  },
+  {
+    "name":"ReactJS", 
+    "desc":"I'm a beginner with ReactJS, as you've seen in my earlier projects, but I am eager to learn more. I've used React libraries like Framer Motion and R3F in my projects. I enjoy ReactJS because it lets me create more animations, organize my code better, and build dynamic components, unlike using regular HTML CSS JS. I'm also curious about the possibilities in using ReactJS."
+  },
+  {
+    "name":"Tailwind", 
+    "desc":"I really enjoy Tailwind because it's simpler than using pure CSS and not as rigid as Bootstrap. With Tailwind, I can implement my designs to the website and create responsive layouts. But of course, you can't be good in tailwind if you dont know the fundementals in css, That is why I am also quite good in CSS."
+  },
+  {
+    "name":"Laravel", 
+    "desc":"I'm ok with Laravel but I do want to learn more about it. I can use its MVC architecture to link the database, create views, display data from the database, handle routing, and more. You can check out my project 'The Herb Shop' above, but most of the backend work was done by my team members there."
+  },
+  {
+    "name":"Bootstrap", 
+    "desc":"I have used bootstrap but i didnt enjoy it. In my opinion, Bootstrap is not flexible and bad if you want good design (because they all look the same). Even though you can edit more on the Bootstrap, I prefer using tailwind in helping me design because its easier than pure CSS and more flexible than bootstrap."
+  },
+  {
+    "name":"SQL", 
+    "desc":"My SQL skills are a bit rusty since I haven't used it in a while, but I still remember quite a few commands to get, input, and modify data, with or without certain conditions. I can also set up tables with foreign keys to link them together."
+  },
+  {
+    "name":"Figma", 
+    "desc":"I am pretty proficient in Figma and my designing skills are not that bad as you can see from my UI/UX projects above. I can use its features such as components, auto layouts, local styles and others. I can also make prototypes and animations. I still haven't learned about the variable feature though just because I haven't really needed it so far."
+  },
+  {
+    "name":"Blender", 
+    "desc":"While I may not consider myself an expert, I can still use Blender. Above, you Check out my Blender skills."
+  }
+]

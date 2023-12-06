@@ -9,11 +9,12 @@ const Projects = () => {
       <div className="min-h-screen w-auto block lg:grid grid-cols-[1fr_1fr]">
         <div></div>
         <div className="py-40 border-solid border-dark
-          border-t-0 border-b-0 border-l-[.1rem] border-r-[.1rem] lg:border-t-[.1rem] lg:border-b-[.1rem] lg:border-r-0
-        ">
+          border-t-0 border-b-0 border-l-[.1rem] border-r-[.1rem] lg:border-t-[.1rem] lg:border-b-[.1rem] lg:border-r-0"
+        >
           <p className="title-font text-8xl lg:text-[10rem] p-8">Projects</p>
             {projectsjson.map((n) => (
                 <HoverProjectButton 
+                  key={n.title}
                   title={n.title}
                   subtitle={n.subtitle}
                   img={n.image}
@@ -28,6 +29,7 @@ const Projects = () => {
           <p className="title-font text-8xl lg:text-[10rem] pt-40 p-8">My Dabbles</p>
             {dabblesjson.map((n) => (
                 <HoverProjectButton 
+                  key={n.title}
                   title={n.title}
                   subtitle={n.subtitle}
                   img={n.image}

@@ -7,7 +7,7 @@
     "tools": "Figma", 
     "year": "2023", 
     "link": "https://www.behance.net/gallery/171230883/WorkFitAI",
-    "desc": "In this team project I led, we conceptualized and designed a workout themed mobile app UI/UX integrated with AI technology. From making out the project's overview, problem statement, and defining objectives to creating user personas, user flows, wireframes, and executing a polished UI/UX design, we've put all the results in the behance page. We've also included the style guide, a mockup video, and a prototype link for the mobile app."
+    "desc": "In this team project I led, we conceptualized and designed a UI/UX for a workout themed mobile app that is integrated with AI technology. From making out the project's overview, problem statement, and goals to creating user personas, user flows, wireframes, and executing a polished UI/UX design, we've put all the results in the behance page. We've also included the style guide, a mockup video, and a prototype link for the mobile app."
   },
   {
     "title": "Scenery Renders", 
@@ -17,7 +17,7 @@
     "tools": "Blender", 
     "year": "2023", 
     "link": "#",
-    "desc": "For my university game design and programming project, I delved into Blender to create low poly style renders of dungeon and cave maps using various game assets. This journey significantly enhanced my Blender skills from modeling custom object, landscaping, and camera composition. Each map I experimented with something new like fog volumes and crystal materials in which it increased my Blender knowledge."
+    "desc": "For my university project, I delved into Blender to create low poly style renders of dungeons and cave maps using various game assets. This journey significantly enhanced my Blender skills from modeling custom object, landscaping, and camera composition. Each map I experimented with something new like fog volumes and crystal materials in which it increased my Blender knowledge."
   },
   {
     "title": "Weatherby (ongoing)", 
@@ -27,7 +27,7 @@
     "tools": "Figma", 
     "year": "2023", 
     "link": "#",
-    "desc": "I designed a UI/UX for a weather mobile app featuring an integrated AI Chat Bot. I named the AI 'Weatherby' which i think is pretty clever if i do say so myself. The design displays detailed weather informations for various locations from which you can search for."
+    "desc": "I'm designing the UI/UX for a weather mobile app featuring an integrated AI Chat Bot. I named the app and its AI chat bot 'Weatherby'. The design displays detailed weather informations for various locations from which you can search for. I'm also making the prototype."
   },
   {
     "title": "Mockup Animation", 
@@ -47,7 +47,7 @@
     "tools": "Blender", 
     "year": "2023", 
     "link": "#",
-    "desc": "I was inspired by Spider-Verse and similar animations, and so I experimented on Blender's shader features. Through these renders, I learned about creating shaders using nodes to achieve a certain stylized npr (non-photorealistic) look. I made and experimented custom shaders including toonish, sketch-like, comic style and more."
+    "desc": "I was inspired by Spider-Verse and similar animations, and so I experimented on Blender's shader features. Through these renders, I learned about creating shaders using nodes to achieve a certain stylized npr (non-photorealistic) look. I made and experimented with custom shaders including toonish, sketch-like, comic style and a few others."
   },
   {
     "title": "TrainGo", 
@@ -57,7 +57,7 @@
     "tools": "Figma", 
     "year": "2023", 
     "link": "https://www.behance.net/gallery/174350381/TrainGo",
-    "desc": "Traingo is a UI/UX project I created for a school assignment. I crafted a mobile app for checking train statuses and schedules. This involved designing a user-friendly search bar for trains and stations and a route page to display best trains for a specified route. I also made fictional map to conceptualize it."
+    "desc": "Traingo is a UI/UX project I created for a school assignment. I crafted a mobile app for checking train statuses and schedules. This involved designing a user-friendly search bar for trains and stations and a route page to display best trains for a specified route. I also made a fictional map to conceptualize it."
   },
   {
     "title": "Jobby", 
@@ -67,7 +67,7 @@
     "tools": "Figma", 
     "year": "2022", 
     "link": "#",
-    "desc": "Jobby was a team project in which we designed a Fiverr-inspired website. This is one of my first experiences in using figma where I learned a lot about its features such as Figma components and prototyping. This experience helped me develop my Figma skills."
+    "desc": "Jobby was a team project in which we designed a Fiverr-inspired website. This is one of my first experiences in using figma where I learned a lot about its features. One of my friend is really experienced (and did most of the work) and he helped me in developing my Figma skills."
   }
 ]
 
